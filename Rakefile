@@ -9,7 +9,7 @@ Dir.glob('rake_tasks/*.rake').each { |r| load r }
 desc 'Executar os testes selecionando a plataforma (ios|android), e.g.: single_run_acceptance[android,@homepage]'
 task :single_run_acceptance, :platform, :tags do |_, args|
   Rake::Task[:start_appium_server].invoke
-  result = run_rake_task('run_acceptance', args[:platform], args[:tags])
+  result = run_rake_task('run_sequential_test', args[:platform], args[:tags])
 
   begin
     Rake::Task[:stop_appium_server].invoke

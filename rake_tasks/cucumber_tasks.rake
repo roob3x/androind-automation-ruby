@@ -6,8 +6,8 @@ require 'cucumber/rake/task'
 # Tasks
 ###
 
-desc 'Executar os testes de aceitação com a plataforma selecionada (ios|android) Ex.: run_acceptance[android,@homepage]'
-task :run_acceptance, :platform, :tags do |_, args|
+desc 'Executar os testes de aceitação com a plataforma selecionada (ios|android) Ex.: run_sequential_test[android,@homepage]'
+task :run_sequential_test, :platform, :tags do |_, args|
   platform_check(args)
 
   tags = ''

@@ -3,7 +3,7 @@ automationName = "XCUITest"
 deviceName = "iPhone 13"
 platformName = "iOS"
 platformVersion = "15.5"
-app = "./apps/ios/SimpleCalculator.app"
+app = "./seu/path/seuApp.app"
 autoAcceptAlerts = true
 udid = "0067B2F7-840F-4661-BAB0-B9EB5F1098CD"
 [appium_lib]
