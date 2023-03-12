@@ -1,0 +1,11 @@
+[caps]
+platformName = "Android"
+deviceName = "emulator-5554"
+appPackage = "io.platformbuilders.challenge.qa"
+appActivity = "host.exp.exponent.MainActivity"
+app = "./apps/android/challenge-qa.apk"
+autoGrantPermissions = true
+newCommandTimeout = 3600
+[appium_lib]
+wait = 20
+debug = false

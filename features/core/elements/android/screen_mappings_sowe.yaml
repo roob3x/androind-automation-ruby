@@ -1,0 +1,33 @@
+cadastrar_btn:
+  type: 'ACCESS_ID'
+  value: 'Cadastrar'
+home_page_sowe:
+  type: 'ACCESS_ID'
+  value: 'Explore climas locais socialmente, com o Sowe'
+entrar_btn:
+  type: 'ACCESS_ID'
+  value: 'Entrar'
+phone_input:
+  type: 'ACCESS_ID'
+  value: 'insira o numero de celular'
+phone_submit:
+  type: 'XPATH'
+  value: '//android.view.ViewGroup[@content-desc="Botao Avancar"]'
+name_input:
+  type: 'ACCESS_ID'
+  value: 'Insira o nome completo'
+name_submit:
+  type: 'XPATH'
+  value: '//android.view.ViewGroup[@content-desc="Botao Avancar"]'
+localization_btn:
+  type: 'ACCESS_ID'
+  value: 'LOCALIZAÇÃO AUTOMÁTICA'
+localization_answer_yes:
+  type: 'ACCESS_ID'
+  value: 'Sim'
+localization_answer_no:
+  type: 'ACCESS_ID'
+  value: 'Não'
+header_sowe:
+  type: 'XPATH'
+  value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]'
