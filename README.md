@@ -116,8 +116,11 @@ Feito isso, voce ja pode inicializar o seu appium
 ## BAIXANDO DEPENDENCIAS DO PROJETO PARA QUE SEJA POSSIVEL EXECUTA-LO
 
 Na raiz do seu projeto execute os seguintes comandos:
+
 1- gem install bundler
+
 2- gem install allure-cucumber
+
 3- bundle install
 
 Feito isso seu projeto esta configurado para execucao. para isso exucute:
